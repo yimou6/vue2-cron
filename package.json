@@ -1,14 +1,33 @@
 {
-  "name": "v-cron",
+  "name": "vue2-cron",
   "version": "0.1.0",
-  "private": true,
+  "description": "cron",
+  "private": false,
+  "main": "lib/vue2-cron.umd.min.js",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "vue-cli-service build --target lib --name vue2-cron --dest lib ./src/index.js",
     "lint": "vue-cli-service lint"
   },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "cron",
+    "vue",
+    "vuecron",
+    "vue2-cron"
+  ],
+  "files": [
+    "lib/vue2-cron.umd.min.js"
+  ],
+  "license": "MIT",
   "dependencies": {
-    "core-js": "^3.6.5",
+    "core-js": "^3.6.5"
+  },
+  "peerDependencies": {
+    "element-ui": "^2.3.6",
     "vue": "^2.6.11"
   },
   "devDependencies": {
@@ -20,6 +39,9 @@
     "eslint-plugin-vue": "^6.2.2",
     "sass": "^1.26.5",
     "sass-loader": "^8.0.2",
-    "vue-template-compiler": "^2.6.11"
+    "vue-cli-plugin-element-ui": "~1.1.4",
+    "vue-template-compiler": "^2.6.11",
+    "element-ui": "^2.3.6",
+    "vue": "^2.6.11"
   }
 }

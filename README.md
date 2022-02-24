@@ -1,24 +1,23 @@
-# v-cron
+# vue2-cron
 
-## Project setup
-```
-yarn install
+基于element-ui 的cron组件
+
+### Install 
+> npm install vue2-cron
+
+### Use
+```vue
+<template>
+  <vue2-cron v-model="cronText"></vue2-cron>
+</template>
+<script>
+export default {
+  data() {
+    return {
+      cronText: ''
+    }  
+  }
+}
+</script>
 ```
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
