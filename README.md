@@ -14,7 +14,9 @@
   <vue2-cron v-model="cronText"></vue2-cron>
 </template>
 <script>
+import Vue2Cron from 'vue2-cron'
 export default {
+  components: { Vue2Cron },
   data() {
     return {
       cronText: ''
