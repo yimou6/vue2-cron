@@ -547,7 +547,7 @@ export default {
   font-size: 14px;
 }
 .v-cron-tabs .el-tabs__content {
-  padding-bottom: 40px;
+  padding-bottom: 40px!important;
 }
 .cron-row {
   margin-bottom: 10px;
