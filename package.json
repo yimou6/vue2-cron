@@ -11,8 +11,9 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/yimou6/vue2-cron.git"
   },
+  "homepage": "",
   "keywords": [
     "cron",
     "vue",
